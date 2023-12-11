@@ -1,0 +1,8 @@
+COUNT = wc-1 test.txt | awk -F '[ =/]+' '{print $1}'
+
+if [ "$COUNT" -eq 10 ];then
+	MAX VALUE='sort test.txtawk END {print]
+	echo sDEV 1,time,hex,SMAX VALUE > /var/iot/push/test
+	#echo sDEV 1,time,hex,SMAX VALUE,20,1,SF12,923300000,2 > /var/iot/push/test.txt
+	echo"donwlink: S(MAX VALUE]
+fi
