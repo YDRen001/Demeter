@@ -1,0 +1,601 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000009, day=000000000017, hour=000000000022, min=000000000005, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000025336, lin=000000000576, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='bridge 2.5'
+	VersionID=1837
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2586
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='airh=\'3mm\' bridgele=\'9.5mm\' bridgeline1=\'0\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' c1=\'2.7000000000000002pF\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'39.099999999999994mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' shortr=\'1mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\'', ID=2452)
+		Map(V='airh=\'3mm\' bridgele=\'9.5mm\' bridgeline1=\'0\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' c1=\'3.2999999999999998pF\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'39.099999999999994mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' shortr=\'1mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\'', ID=2320)
+		Map(V='airh=\'3mm\' bridgele=\'9.5mm\' bridgeline1=\'0\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' c1=\'3.6000000000000001pF\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'39.099999999999994mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' shortr=\'1mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\'', ID=2460)
+		Map(V='airh=\'3mm\' bridgele=\'9.5mm\' bridgeline1=\'0\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' c1=\'3pF\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'39.099999999999994mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' shortr=\'1mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\'', ID=2455)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=2320, Ver=1837, Dir='DV2320_V1837.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=0
+			VIDMap('airh=\'3mm\' bridgele=\'9.5mm\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\'', 2366)
+			DM(VID=2366, Ver=0, Dir='NDV2366_V0.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=2320, Ver=1837, Dir='DV2320_MI0_V1837.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=53, Instance=\'SetupDefinition\', Solution=-1, VersionID=1837)'='SolutionBlock5'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=54, VersionID=2279)'='SolutionBlock2'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=55, VersionID=2279)'='SolutionBlock3'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=62, VersionID=2279)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=62
+	V=2279
+	$begin 'States'
+		F(VID=2320, Ver=2279)
+		F(VID=2452, Ver=2279)
+		F(VID=2455, Ver=2279)
+		F(VID=2460, Ver=2279)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(700000000, 702000000, 704000000, 706000000, 708000000, 710000000, 712000000, 714000000, 716000000, 718000000, 720000000, 722000000, 724000000, 726000000, 728000000, 730000000, 732000000, 734000000, 736000000, 738000000, 740000000, 742000000, 744000000, 746000000, 748000000, 750000000, 752000000, 754000000, 756000000, 758000000, 760000000, 762000000, 764000000, 766000000, 768000000, 770000000, 772000000, 774000000, 776000000, 778000000, 780000000, 782000000, 784000000, 786000000, 788000000, 790000000, 792000000, 794000000, 796000000, 798000000, 800000000, 802000000, 804000000, 806000000, 808000000, 810000000, 812000000, 814000000, 816000000, 818000000, 820000000, 822000000, 824000000, 826000000, 828000000, 830000000, 832000000, 834000000, 836000000, 838000000, 840000000, 842000000, 844000000, 846000000, 848000000, 850000000, 852000000, 854000000, 856000000, 858000000, 860000000, 862000000, 864000000, 866000000, 868000000, 870000000, 872000000, 874000000, 876000000, 878000000, 880000000, 882000000, 884000000, 886000000, 888000000, 890000000, 892000000, 894000000, 896000000, 898000000, 900000000, 902000000, 904000000, 906000000, 908000000, 910000000, 912000000, 914000000, 916000000, 918000000, 920000000, 922000000, 924000000, 926000000, 928000000, 930000000, 932000000, 934000000, 936000000, 938000000, 940000000, 942000000, 944000000, 946000000, 948000000, 950000000, 952000000, 954000000, 956000000, 958000000, 960000000, 962000000, 964000000, 966000000, 968000000, 970000000, 972000000, 974000000, 976000000, 978000000, 980000000, 982000000, 984000000, 986000000, 988000000, 990000000, 992000000, 994000000, 996000000, 998000000, 1000000000, 1002000000, 1004000000, 1006000000, 1008000000, 1010000000, 1012000000, 1014000000, 1016000000, 1018000000, 1020000000, 1022000000, 1024000000, 1026000000, 1028000000, 1030000000, 1032000000, 1034000000, 1036000000, 1038000000, 1040000000, 1042000000, 1044000000, 1046000000, 1048000000, 1050000000, 1052000000, 1054000000, 1056000000, 1058000000, 1060000000, 1062000000, 1064000000, 1066000000, 1068000000, 1070000000, 1072000000, 1074000000, 1076000000, 1078000000, 1080000000, 1082000000, 1084000000, 1086000000, 1088000000, 1090000000, 1092000000, 1094000000, 1096000000, 1098000000, 1100000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=2320, Ver=2279, File='DV2320_SOL62_M0_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL62_M0_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL62_M0_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL62_M0_V2279.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'TransientSolveStauts'
+		SS(VID=2320, Ver=2279, SS=1)
+		SS(VID=2452, Ver=2279, SS=1)
+		SS(VID=2455, Ver=2279, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(2439, 2000000000, 2440, 100000000, 2441, 1050000000, 2443, 1525000000, 2444, 575000000, 2445, 1287500000, 2446, 337500000, 2447, 750000000, 2448, 987500000, 2449, 1762500000, 2450, 1168750000, 2451, 1406250000, 2453, 662500000, 2456, 456250000, 2457, 218750000, 2458, 1228125000, 2459, 1109375000)
+		$begin 'DataMap'
+			VID=2320
+			Ver=2279
+			SU(DblID=2440, SU='DV2320_S62_V2279_F2440_SU.txt')
+			SU(DblID=2446, SU='DV2320_S62_V2279_F2446_SU.txt')
+			SU(DblID=2444, SU='DV2320_S62_V2279_F2444_SU.txt')
+			SU(DblID=2447, SU='DV2320_S62_V2279_F2447_SU.txt')
+			SU(DblID=2448, SU='DV2320_S62_V2279_F2448_SU.txt')
+			SU(DblID=2441, SU='DV2320_S62_V2279_F2441_SU.txt')
+			SU(DblID=2450, SU='DV2320_S62_V2279_F2450_SU.txt')
+			SU(DblID=2445, SU='DV2320_S62_V2279_F2445_SU.txt')
+			SU(DblID=2451, SU='DV2320_S62_V2279_F2451_SU.txt')
+			SU(DblID=2443, SU='DV2320_S62_V2279_F2443_SU.txt')
+			SU(DblID=2449, SU='DV2320_S62_V2279_F2449_SU.txt')
+			SU(DblID=2439, SU='DV2320_S62_V2279_F2439_SU.txt')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=2452
+			Ver=2279
+			SU(DblID=2440, SU='DV2452_S62_V2279_F2440_SU.txt')
+			SU(DblID=2446, SU='DV2452_S62_V2279_F2446_SU.txt')
+			SU(DblID=2444, SU='DV2452_S62_V2279_F2444_SU.txt')
+			SU(DblID=2453, SU='DV2452_S62_V2279_F2453_SU.txt')
+			SU(DblID=2447, SU='DV2452_S62_V2279_F2447_SU.txt')
+			SU(DblID=2441, SU='DV2452_S62_V2279_F2441_SU.txt')
+			SU(DblID=2450, SU='DV2452_S62_V2279_F2450_SU.txt')
+			SU(DblID=2445, SU='DV2452_S62_V2279_F2445_SU.txt')
+			SU(DblID=2451, SU='DV2452_S62_V2279_F2451_SU.txt')
+			SU(DblID=2443, SU='DV2452_S62_V2279_F2443_SU.txt')
+			SU(DblID=2449, SU='DV2452_S62_V2279_F2449_SU.txt')
+			SU(DblID=2439, SU='DV2452_S62_V2279_F2439_SU.txt')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=2455
+			Ver=2279
+			SU(DblID=2440, SU='DV2455_S62_V2279_F2440_SU.txt')
+			SU(DblID=2457, SU='DV2455_S62_V2279_F2457_SU.txt')
+			SU(DblID=2446, SU='DV2455_S62_V2279_F2446_SU.txt')
+			SU(DblID=2456, SU='DV2455_S62_V2279_F2456_SU.txt')
+			SU(DblID=2444, SU='DV2455_S62_V2279_F2444_SU.txt')
+			SU(DblID=2447, SU='DV2455_S62_V2279_F2447_SU.txt')
+			SU(DblID=2441, SU='DV2455_S62_V2279_F2441_SU.txt')
+			SU(DblID=2459, SU='DV2455_S62_V2279_F2459_SU.txt')
+			SU(DblID=2450, SU='DV2455_S62_V2279_F2450_SU.txt')
+			SU(DblID=2458, SU='DV2455_S62_V2279_F2458_SU.txt')
+			SU(DblID=2445, SU='DV2455_S62_V2279_F2445_SU.txt')
+			SU(DblID=2451, SU='DV2455_S62_V2279_F2451_SU.txt')
+			SU(DblID=2443, SU='DV2455_S62_V2279_F2443_SU.txt')
+			SU(DblID=2449, SU='DV2455_S62_V2279_F2449_SU.txt')
+			SU(DblID=2439, SU='DV2455_S62_V2279_F2439_SU.txt')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=2460
+			Ver=2279
+			SU(DblID=2440, SU='DV2460_S62_V2279_F2440_SU.txt')
+			SU(DblID=2441, SU='DV2460_S62_V2279_F2441_SU.txt')
+			SU(DblID=2439, SU='DV2460_S62_V2279_F2439_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=54
+	V=2279
+	$begin 'States'
+		F(VID=2320, Ver=2279)
+		F(VID=2452, Ver=2279)
+		F(VID=2455, Ver=2279)
+		F(VID=2460, Ver=2279)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(925000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M1_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M1_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M1_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M1_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M2_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M2_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M2_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M2_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M3_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M3_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M3_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M3_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M4_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M4_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M4_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M4_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M5_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M5_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M5_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M5_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M6_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M6_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M6_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M6_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M7_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M7_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M7_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M7_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M8_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M8_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M8_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M8_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M9_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M9_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M9_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M9_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M10_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M10_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M10_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M10_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M11_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M11_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M11_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M11_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M12_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M12_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M12_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M12_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M13_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M13_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M13_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M13_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=14
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M14_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M14_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M14_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M14_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=15
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M15_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M15_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M15_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M15_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=16
+			M(VID=2320, Ver=2279, File='DV2320_SOL54_M16_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL54_M16_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL54_M16_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M16_V2279.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=17
+			M(VID=2460, Ver=2279, File='DV2460_SOL54_M17_V2279.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=55
+	V=2279
+	$begin 'States'
+		F(VID=2320, Ver=2279)
+		F(VID=2452, Ver=2279)
+		F(VID=2455, Ver=2279)
+		F(VID=2460, Ver=2279)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(925000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=2320, Ver=2279, File='DV2320_SOL55_M0_V2279.sd')
+			M(VID=2452, Ver=2279, File='DV2452_SOL55_M0_V2279.sd')
+			M(VID=2455, Ver=2279, File='DV2455_SOL55_M0_V2279.sd')
+			M(VID=2460, Ver=2279, File='DV2460_SOL55_M0_V2279.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(2388, 925000000)
+		$begin 'DataMap'
+			VID=2320
+			Ver=2279
+			F(DblID=2388, Dir='DV2320_S55_V2279_F2388/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock5'
+	SimSetupID=53
+	SimSetupName='Setup1'
+	VersionID=1837
+	$begin 'EmConvergenceData'
+		EmConv(VID=2320, Ver=1837, EmConv='DV2320_S53_V1837.EMConvData')
+		EmConv(VID=2452, Ver=1837, EmConv='DV2452_S53_V1837.EMConvData')
+		EmConv(VID=2455, Ver=1837, EmConv='DV2455_S53_V1837.EMConvData')
+		EmConv(VID=2460, Ver=1837, EmConv='DV2460_S53_V1837.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=2320, Ver=1837, Dir='DV2320_S53_V1837.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=0
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP0_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP1_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP2_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP3_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP4_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP5_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP6_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP7_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP8_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP9_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP10_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP11_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP12_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP13_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=14
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP14_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=15
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP15_V1837.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=16
+			ADP(VID=2320, Ver=1837, Dir='DV2320_S53_ADP16_V1837.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD1_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD2_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD3_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD4_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD5_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD6_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD7_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD8_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD9_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD10_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD11_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD12_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD13_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=14
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD14_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=15
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD15_V1837.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=16
+			SU(VID=2320, Ver=1837, File='DV2320_S53_SD16_V1837.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=2320, Ver=1837, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=2320, Ver=1837, P=16)
+		LP(VID=2452, Ver=1837, P=16)
+		LP(VID=2455, Ver=1837, P=16)
+		LP(VID=2460, Ver=1837, P=17)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=2320, Ver=1837, File='DV2320_S53_V1837.profile')
+		P(VID=2452, Ver=1837, File='DV2452_S53_V1837.profile')
+		P(VID=2455, Ver=1837, File='DV2455_S53_V1837.profile')
+		P(VID=2460, Ver=1837, File='DV2460_S53_V1837.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=2320, Ver=1837, Dir='DV2320_S53_MI0_V1837.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'OptimetricsResult2'
+	V=2
+	svi('airh', '3mm')
+	vi('bridgele', '9.5mm', '9.5mm', '9.5mm')
+	svi('bridgeline1', '0')
+	svi('bridgelinew', '3mm')
+	svi('bridges', '0.85mm')
+	svi('bridgew', '0.37mm')
+	vi('c1', '3.3pF', '3.3pF', '3.3pF')
+	svi('capw', '0.7mm')
+	svi('copper', '0.018mm')
+	svi('feed_length', '21mm')
+	svi('feed_slotl', '22mm')
+	svi('feed_slotw', '1mm')
+	svi('feedline_end', '5mm')
+	svi('feedlinew', '1.5mm')
+	svi('gndew', '14mm')
+	svi('gndl', '25mm')
+	svi('gndw', '100mm')
+	svi('padw', '0.1mm')
+	svi('patch_gap', '0.3mm')
+	svi('patchw', '11mm')
+	svi('quarter', '35mm')
+	svi('shortr', '1mm')
+	svi('subh', '1.6mm')
+	gver(0)
+	ev(55, 2279)
+	ev(62, 2279)
+	var(3.000000000000000e-03, 9.500000000000000e-03, 0.000000000000000e+00, 3.000000000000000e-03, 8.500000000000000e-04, 3.700000000000000e-04, 3.300000000000000e-12, 7.000000000000000e-04, 1.800000000000000e-05, 2.100000000000000e-02, 2.200000000000000e-02, 1.000000000000000e-03, 5.000000000000000e-03, 1.500000000000000e-03, 1.400000000000000e-02, 2.500000000000000e-02, 1.000000000000000e-01, 1.000000000000000e-04, 3.000000000000000e-04, 1.100000000000000e-02, 3.500000000000000e-02, 1.000000000000000e-03, 1.600000000000000e-03)
+	gvs(9.500000000000000e-03, 3.300000000000000e-12)
+$end 'OptimetricsResult2'
+$begin 'OptimetricsResults'
+	'4:8'='OptimetricsResult1'
+	'5:0'='OptimetricsResult2'
+$end 'OptimetricsResults'
+$begin 'OptimetricsResult1'
+	V=2
+	svi('airh', '3mm')
+	svi('bridgele', '9.5mm')
+	svi('bridgeline1', '0')
+	svi('bridgelinew', '3mm')
+	svi('bridges', '0.85mm')
+	svi('bridgew', '0.37mm')
+	vi('c1', '3.3pF', '3.3pF', '3.3pF')
+	svi('capw', '0.7mm')
+	svi('copper', '0.018mm')
+	svi('feed_length', '21mm')
+	svi('feed_slotl', '22mm')
+	svi('feed_slotw', '1mm')
+	svi('feedline_end', '5mm')
+	svi('feedlinew', '1.5mm')
+	svi('gndew', '14mm')
+	svi('gndl', '25mm')
+	svi('gndw', '100mm')
+	svi('padw', '0.1mm')
+	svi('patch_gap', '0.3mm')
+	svi('patchw', '11mm')
+	svi('quarter', '35mm')
+	svi('shortr', '1mm')
+	svi('subh', '1.6mm')
+	gver(0)
+	ev(55, 2279)
+	ev(62, 2279)
+	var(3.000000000000000e-03, 9.500000000000000e-03, 0.000000000000000e+00, 3.000000000000000e-03, 8.500000000000000e-04, 3.700000000000000e-04, 2.700000000000000e-12, 7.000000000000000e-04, 1.800000000000000e-05, 2.100000000000000e-02, 2.200000000000000e-02, 1.000000000000000e-03, 5.000000000000000e-03, 1.500000000000000e-03, 1.400000000000000e-02, 2.500000000000000e-02, 1.000000000000000e-01, 1.000000000000000e-04, 3.000000000000000e-04, 1.100000000000000e-02, 3.500000000000000e-02, 1.000000000000000e-03, 1.600000000000000e-03)
+	gvs(2.700000000000000e-12)
+	var(3.000000000000000e-03, 9.500000000000000e-03, 0.000000000000000e+00, 3.000000000000000e-03, 8.500000000000000e-04, 3.700000000000000e-04, 3.000000000000000e-12, 7.000000000000000e-04, 1.800000000000000e-05, 2.100000000000000e-02, 2.200000000000000e-02, 1.000000000000000e-03, 5.000000000000000e-03, 1.500000000000000e-03, 1.400000000000000e-02, 2.500000000000000e-02, 1.000000000000000e-01, 1.000000000000000e-04, 3.000000000000000e-04, 1.100000000000000e-02, 3.500000000000000e-02, 1.000000000000000e-03, 1.600000000000000e-03)
+	gvs(3.000000000000000e-12)
+	var(3.000000000000000e-03, 9.500000000000000e-03, 0.000000000000000e+00, 3.000000000000000e-03, 8.500000000000000e-04, 3.700000000000000e-04, 3.300000000000000e-12, 7.000000000000000e-04, 1.800000000000000e-05, 2.100000000000000e-02, 2.200000000000000e-02, 1.000000000000000e-03, 5.000000000000000e-03, 1.500000000000000e-03, 1.400000000000000e-02, 2.500000000000000e-02, 1.000000000000000e-01, 1.000000000000000e-04, 3.000000000000000e-04, 1.100000000000000e-02, 3.500000000000000e-02, 1.000000000000000e-03, 1.600000000000000e-03)
+	gvs(3.300000000000000e-12)
+$end 'OptimetricsResult1'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResult1(pos=22978, lin=541, lvl=0)
+		BlockMapName(pos=4268, lin=41, lvl=0)
+		SolutionBlock2(pos=10770, lin=145, lvl=0)
+		SolutionBlock3(pos=15800, lin=285, lvl=0)
+		SolutionBlock4(pos=4764, lin=48, lvl=0)
+		SolutionBlock5(pos=16719, lin=324, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		ResponseSurfaceCache(pos=21512, lin=503, lvl=0)
+		OptimetricsResult2(pos=21594, lin=506, lvl=0)
+		OptimetricsResults(pos=22868, lin=537, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=25336, lin=576, lvl=0)
+	$end '$index$'
+$end '$index$'

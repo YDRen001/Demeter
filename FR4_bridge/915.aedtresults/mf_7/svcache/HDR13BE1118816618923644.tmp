@@ -1,0 +1,66 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=4
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(2,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(3,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='S(4,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=7
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=54
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=55
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=62
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=2279
+						$begin 'MinorVVMap'
+							MajorVariation='airh=\'3mm\' bridgele=\'9.5mm\' bridgeline1=\'0\' bridgelinel1=\'12.075000000000001mm\' bridgelinew=\'3mm\' bridges=\'0.84999999999999998mm\' bridgew=\'0.37mm\' bridgex=\'-0.79499999999999993mm\' c1=\'3.2999999999999998pF\' capw=\'0.69999999999999996mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'39.099999999999994mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'100mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'11mm\' quarter=\'35mm\' shortr=\'1mm\' subh=\'1.6000000000000001mm\' subw=\'54.199999999999996mm\''
+							MinorCacheFile='min127D13276166303618322.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

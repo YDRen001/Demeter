@@ -1,0 +1,124 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000009, day=000000000017, hour=000000000022, min=000000000019, sec=000000000039)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005117, lin=000000000103, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='bridge 3.55'
+	VersionID=645
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=768
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='airh=\'3mm\' bridgele=\'2.48mm\' bridgelinel1=\'12.325000000000001mm\' bridgelinew=\'1.5mm\' bridges=\'0.34999999999999998mm\' bridgew=\'0.34000000000000002mm\' bridgex=\'-0.51500000000000001mm\' c1=\'1pF\' capw=\'0.5mm\' copper=\'0.017999999999999999mm\' feed_length=\'21mm\' feed_slotl=\'22mm\' feed_slotw=\'1mm\' feedline_end=\'5mm\' feedlinel=\'26.100000000000001mm\' feedlinew=\'1.5mm\' gndew=\'14mm\' gndl=\'25mm\' gndw=\'42.200000000000003mm\' padw=\'0.10000000000000001mm\' patch_gap=\'0.29999999999999999mm\' patchw=\'9mm\' quarter=\'25mm\' shortr=\'1mm\' subh=\'0.5mm\' subw=\'28.200000000000003mm\'', ID=705)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=53, Instance=\'SetupDefinition\', Solution=-1, VersionID=651)'='SolutionBlock5'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=54, VersionID=651)'='SolutionBlock2'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=55, VersionID=651)'='SolutionBlock3'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=62, VersionID=652)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=54
+	V=651
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3550000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=55
+	V=651
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3550000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=62
+	V=652
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2000000000, 2020000000, 2040000000, 2060000000, 2080000000, 2100000000, 2120000000, 2140000000, 2160000000, 2180000000, 2200000000, 2220000000, 2240000000, 2260000000, 2280000000, 2300000000, 2320000000, 2340000000, 2360000000, 2380000000, 2400000000, 2420000000, 2440000000, 2460000000, 2480000000, 2500000000, 2520000000, 2540000000, 2560000000, 2580000000, 2600000000, 2620000000, 2640000000, 2660000000, 2680000000, 2700000000, 2720000000, 2740000000, 2760000000, 2780000000, 2800000000, 2820000000, 2840000000, 2860000000, 2880000000, 2900000000, 2920000000, 2940000000, 2960000000, 2980000000, 3000000000, 3020000000, 3040000000, 3060000000, 3080000000, 3100000000, 3120000000, 3140000000, 3160000000, 3180000000, 3200000000, 3220000000, 3240000000, 3260000000, 3280000000, 3300000000, 3320000000, 3340000000, 3360000000, 3380000000, 3400000000, 3420000000, 3440000000, 3460000000, 3480000000, 3500000000, 3520000000, 3540000000, 3560000000, 3580000000, 3600000000, 3620000000, 3640000000, 3660000000, 3680000000, 3700000000, 3720000000, 3740000000, 3760000000, 3780000000, 3800000000, 3820000000, 3840000000, 3860000000, 3880000000, 3900000000, 3920000000, 3940000000, 3960000000, 3980000000, 4000000000, 4020000000, 4040000000, 4060000000, 4080000000, 4100000000, 4120000000, 4140000000, 4160000000, 4180000000, 4200000000, 4220000000, 4240000000, 4260000000, 4280000000, 4300000000, 4320000000, 4340000000, 4360000000, 4380000000, 4400000000, 4420000000, 4440000000, 4460000000, 4480000000, 4500000000, 4520000000, 4540000000, 4560000000, 4580000000, 4600000000, 4620000000, 4640000000, 4660000000, 4680000000, 4700000000, 4720000000, 4740000000, 4760000000, 4780000000, 4800000000, 4820000000, 4840000000, 4860000000, 4880000000, 4900000000, 4920000000, 4940000000, 4960000000, 4980000000, 5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=53
+	SimSetupName='Setup1'
+	VersionID=651
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1423, lin=23, lvl=0)
+		SolutionBlock2(pos=1915, lin=30, lvl=0)
+		SolutionBlock3(pos=2272, lin=48, lvl=0)
+		SolutionBlock4(pos=2629, lin=66, lvl=0)
+		SolutionBlock5(pos=4778, lin=84, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5117, lin=103, lvl=0)
+	$end '$index$'
+$end '$index$'
