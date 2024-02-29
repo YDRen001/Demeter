@@ -1,5 +1,0 @@
-IsBigEndian false
-$begin 'ManagedFiles'
-	radfld[1: 'RAD42A13632166304999122.tmp']
-	svcache[2: 'HDR42A43632166304999223.tmp', 'min42A43632166304999224.tmp']
-$end 'ManagedFiles'
