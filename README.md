@@ -18,5 +18,7 @@ Simulation software dependencies: Ansys Electronics Desktop 2023 | R2 MATLAB R20
 
 **Figure**: The plotted figures by MATLAB code.
 
+![S](S_plot.png)
+
 LoRa folder includes the code run on underground LoRa devices buried in soil. It is designed for how to modify the phase shifter value to adjust the linear polarization of the transmitter.
 
