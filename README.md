@@ -1,10 +1,10 @@
 # MobiCom'24 Demeter
 
-This repository provides the source design for our paper *"Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment".* The system design of adjustable polarization with single RF chain is shown in this figure. For more details, please read our paper.
+This repository provides the source design for our paper *"Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment".* The system design of adjustable polarization with single RF chain is shown in this figure. For more details, please read our paper. Apart from the hybrid coupler, all other hardware components are commercial products.
 
 ![Demeter](architecture.png)
 
-HFSS folder includes four folders about our hybrid coupler design: The initial design utilizes Rogers5880 substrate with 0.5mm. To reduce the cost for large scale deployment while achieving comparable performance, we optimize the design with FR4 of 1.6mm thickness with very low price. We publish our design on two different substrates. In addition, we also give the S parameters (4-port phase and amplitude changes/ratio) results of coupler illustrated by the core derived formula in **Section3.2** and **Section3.3**. 
+HFSS folder includes four folders about our customized **hybrid coupler** design: The initial design utilizes Rogers5880 substrate with 0.5mm. To reduce the cost for large scale deployment while achieving comparable performance, we optimize the design with FR4 of 1.6mm thickness with very low price. We publish our design on two different substrates. In addition, we also give the S parameters (4-port phase and amplitude changes/ratio) results of coupler illustrated by the core derived formula in **Section3.2** and **Section3.3**. 
 
 Simulation software dependencies: Ansys Electronics Desktop 2023 | R2 MATLAB R2022b 
 
