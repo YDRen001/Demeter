@@ -1,6 +1,6 @@
 # MobiCom'24 Demeter
 
-This repository provides the source design for our paper *"Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment".*
+This repository provides the source design for our paper *"Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment".* The system design of adjustable polarization with single RF chain is shown in this figure. For more details, please read our paper.
 
 ![Demeter](architecture.png)
 
