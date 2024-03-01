@@ -4,7 +4,7 @@ This repository provides the source design for our paper "Reliable Cross-soil LP
 
 HFSS folder includes four folders about our hybrid coupler design: 
 
-Ansys Model: The 3D high frequency simulation design.
+*Ansys Model*: The 3D high frequency simulation design.
 
 Export Data: The simulation results exported from Ansys Electronics Desktop.
 
