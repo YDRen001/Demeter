@@ -12,5 +12,5 @@ HFSS folder includes four folders about our hybrid coupler design: The initial d
 
 **Figure**: The plotted figures by MATLAB code.
 
-LoRa folder includes the code run on underground LoRa devices buried in soil.
+LoRa folder includes the code run on underground LoRa devices buried in soil. It is designed for how to modify the phase shifter value to adjust the linear polarization of the transmitter.
 
