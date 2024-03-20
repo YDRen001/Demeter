@@ -1,8 +1,48 @@
-COUNT = wc-1 test.txt | awk -F '[ =/]+' '{print $1}'
+# touch test.txt
+DEV_1=$1   #INPUT DEVICE
+Time2=`date +%s`
 
-if [ "$COUNT" -eq 10 ];then
-	MAX VALUE='sort test.txtawk END {print]
-	echo sDEV 1,time,hex,SMAX VALUE > /var/iot/push/test
-	#echo sDEV 1,time,hex,SMAX VALUE,20,1,SF12,923300000,2 > /var/iot/push/test.txt
-	echo"donwlink: S(MAX VALUE]
-fi
+
+inotifywait -mrq -e 'create,delete,close_write,attrib,moved_to' /var/iot/channels/ | while read event
+#Process below loop once there is an event arrives
+do
+        #Print out this event
+        echo "            "
+        echo "############New Event###########"
+        echo $event
+
+
+        #Get Dev Address from this event
+        DEV_ADDR=`echo $event | awk '{print $3}'`
+        #   This is an event from Dev_1.
+        if [ "$DEV_ADDR" = "$DEV_1" ]  ;then
+                Time1=`date +%s`
+                if [ `expr $Time1 - $Time2` -gt 6 ];then
+                i=4294967296
+                a=10
+                        # Process for Dev_1
+                        # Print Payload from Dev_1
+                        PAYLOAD1=`cat /var/iot/channels/$DEV_1 ` ##
+                        RSSI_DATE=`printf %d 0x${PAYLOAD1:0:8}`        # First 16 digits
+                        SNR_DATE=`printf %d 0x${PAYLOAD1:8:8}`                  # Last 16 digits
+                        DATE=`echo ${PAYLOAD1:16:20}`
+                        SNR=`expr ${SNR_DATE} / $a`
+                        RSSI=`expr ${RSSI_DATE} - $i`
+                        echo "Payload: 0x$PAYLOAD1"
+                        echo ""
+                        echo "RSSI: ${RSSI} SNR: ${SNR} DATE: ${DATE}"
+
+                        echo RSSI: ${RSSI} SNR: ${SNR} DATE: ${DATE} >> /root/test.txt
+
+                        COUNT=`wc -l test.txt | awk -F '[ =/]+' '{print $1}'`
+
+                        #if [ "$COUNT" -eq 6 ];then
+                                #MAX_VALUE=`sort test.txt | awk 'END {print}'`
+                                #echo $DEV_1,time,hex,$MAX_VALUE > /var/iot/push/test
+                                #echo $DEV_1,time,hex,$MAX_VALUE,20,1,SF12,923300000,2 > /var/iot/push/test
+                                #echo "donwlink: ${MAX_VALUE}"
+                        #fi
+
+                        Time2=`date +%s`
+                fi
+        fi
