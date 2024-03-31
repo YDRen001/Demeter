@@ -17,3 +17,5 @@ Right click **Results** and select *Create Modal Solution Data Report* to create
 ![Report1](Report1.png) ![Report2](report2.png) ![Report3](report3.png)
 
 Export the S parameters efficiency data (right click) and save it as a CSV file (**Rogers_S.csv** and **FR4_S.csv**). Export cross-port phase shift data (**Phase431.csv** and **Phase432.csv**) in FR4. Then please use MATLAB code to replicate the figures. The figures should be consistent with the content in **Section 3.3** HFSS simulation.
+
+![efficiency](efficiency.png)
